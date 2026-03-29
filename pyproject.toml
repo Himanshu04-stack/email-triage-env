@@ -15,5 +15,10 @@ dependencies = [
     "pyyaml==6.0.1",
 ]
 
-[project.urls]
-Homepage = "https://huggingface.co/spaces/Himanshu0004/email-triage-env"
+[tool.openenv]
+env_id = "email-triage-env"
+version = "1.0.0"
+hf_space = "Himanshu0004/email-triage-env"
+reset_endpoint = "/reset"
+step_endpoint = "/step"
+state_endpoint = "/state"
